@@ -1,7 +1,14 @@
+.body {
+  display: block;
+  box-sizing: border-box;
+}
+
 .conteiner {
   position: relative;
-  max-width: 480px;
-  height: 440px;
+  box-sizing: border-box;
+  display: block;
+  width: 385px;
+  margin: 0 auto;
 }
 
 .header {
@@ -60,16 +67,17 @@
 }
 
 .gep-video {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
-  margin: 0 auto;
 }
 
 .gep-video-sec {
   position: absolute;
   top: 840px;
   height: 100%;
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .btn-closes {
