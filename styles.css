@@ -50,14 +50,14 @@ video {
 
 .logo {
   margin: 0;
-  margin-left: 74px;
+  margin-left: 35px;
   text-decoration: none;
   color: #000000;
   font-size: 30px;
 }
 
 .ikon-heart {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .icon-basket {
@@ -74,7 +74,7 @@ video {
 
 .colec {
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 50px;
   width: 30px;
   display: flex;
@@ -91,8 +91,8 @@ video {
 
 .closes {
   position: absolute;
-  top: 220px;
-  left: 380px;
+  top: 150px;
+  left: 330px;
   width: 30px;
   display: flex;
   flex-direction: column;
