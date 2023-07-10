@@ -3,6 +3,12 @@
   box-sizing: border-box;
 }
 
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -14,6 +20,16 @@ video {
   max-width: 100%;
   height: auto;
   margin: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .conteiner {
@@ -103,4 +119,24 @@ video {
   gap: 10px;
   text-shadow: #25211f;
   color: #25211f;
+}
+
+.clos-list {
+  position: absolute;
+  top: 130px;
+  left: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.clos-item {
+  border: 0.2px solid #232222;
+  height: 100%;
+  width: 200px;
+  font-size: 20px;
+  color: #232222;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
