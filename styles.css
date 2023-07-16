@@ -91,8 +91,8 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 40px;
-  left: 300px;
+  top: 20px;
+  left: 290px;
   width: 30px;
   padding-left: 25px;
   padding-right: 28px;
@@ -132,7 +132,7 @@ video {
 .clos-list {
   position: absolute;
   top: 90px;
-  left: 3px;
+  left: -1px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -147,7 +147,7 @@ video {
   color: #232222;
   padding-top: 17px;
   padding-bottom: 17px;
-  padding-left: 17px;
+  padding-left: 12px;
   background: rgba(93, 95, 95, 0.274);
   border-color: bisque;
 }
@@ -170,13 +170,13 @@ video {
   color: #232222;
   padding-top: 17px;
   padding-bottom: 17px;
-  padding-left: 17px;
+  padding-left: 13px;
   border-color: bisque;
   background: rgba(93, 95, 95, 0.274);
 }
 
 .clos-text {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 
